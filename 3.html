@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css3.css">
+    <title>Список островов</title>
+    
+    <style>
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 10px 100px 10px 100px;
+        }
+        .container {
+            max-width: 100%;
+            margin: 650px 0 0 0;
+            padding: 2rem;
+        }
+        footer { 
+            background-color: transparent; 
+            color: #fff; 
+            text-align: center; 
+            padding: 1rem; 
+            margin: 220px 0 0 0; 
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="4.html">О нас</a>
+        <a href="3.html">Список островов</a>
+        <a href="index.html">
+            <img src="logo1.png" alt="Меню">
+        </a>
+        <a href="5.html">Путеводители</a>
+        <a href="2.html">Контакты</a>
+    </nav>
+    <div class="container">
+        <h1 style="color: #00489F"> <font  size="10 px">Список островов</font></h1>
+    <p  class="text-block"  style="padding-top:600px;"> <font  size="11 px" >Популярные направления</font></p>
+    <p  class="text-block"  style="padding-top:300px;"> <font  size="11 px" >Остров Мадейра, Португалия</font></p>
+
+    <div class="slider-container">
+        <div class="mySlides fade">
+            <img src="123.png" alt="Image 1"class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad1.jpg" alt="Image 2" class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad2.jpg" alt="Image 3" class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad3.jpg" alt="Image 4" class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad4.jpg" alt="Image 5" class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad5.jpg" alt="Image 6" class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad6.jpg" alt="Image 7" class="image">
+        </div>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <p  class="text-block"  style="padding-top:40px;"> <font  size="6px" >Зеленый остров с горами, водопадами и живописными деревнями.</font></p>
+
+    <a href="6.html">
+        <img src="ic.svg" alt="Иконка" >
+     </a>
+
+    <p  class="text-block"  style="padding-top:250px;"> <font  size="11 px" >Бора-Бора, Французская Полинезия</font></p>
+
+    <div class="slider-container">
+        <div class="mySlides1 fade">
+            <img src="12341.png" alt="Image 1" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora1.jpg" alt="Image 2" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora2.jpg" alt="Image 3" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora3.jpg" alt="Image 4" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora4.jpg" alt="Image 5" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora5.jpeg" alt="Image 6" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora6.jpg" alt="Image 7" class="image">
+        </div>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <p  class="text-block"  style="padding-top:40px;"> <font  size="6px" >Острова с вулканическими холмами, лагунами и бунгало над водой.</font></p>
+
+    <a href="7.html">
+        <img src="ic.svg" alt="Иконка" >
+     </a>
+
+       <p style="padding-top: 300px;">
+        <p  class="txt1"  style="padding-top:350px;"> <font  size="11 px" >Бали, Индонезия</font></p>
+    <div class="slider-container">
+        <div class="mySlides2 fade">
+            <img src="bali1.jpeg" alt="Image 1"class="image">
+        </div>
+        <div class="mySlides2 fade">
+            <img src="bali2.jpg" alt="Image 2" class="image">
+        </div>
+        <div class="mySlides2 fade">
+            <img src="bali3.jpg" alt="Image 3" class="image">
+        </div>
+        <div class="mySlides2 fade">
+            <img src="bali4.jpg" alt="Image 4" class="image">
+        </div>
+        <div class="mySlides2 fade">
+            <img src="bali5.jpg" alt="Image 5" class="image">
+        </div>
+        <div class="mySlides2 fade">
+            <img src="bali6.jpg" alt="Image 6" class="image">
+        </div>
+        <div class="mySlides2 fade">
+            <img src="bali7.jpeg" alt="Image 7" class="image">
+        </div>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <p  class="txt1"  style="padding-top:60px;"> <font  size="6px" >Остров роскошных рисовых террас, храмов и пляжей.<br>
+        Посетите Улувату, Убуд и Танах Лот, чтобы увидеть культурные достопримечательности.</font></p>
+
+    <p  class="txt1"  style="padding-top:350px;"> <font  size="11 px" >Тенерифе, Канары</font></p>
+    <div class="slider-container">
+        <div class="mySlides3 fade">
+            <img src="ten1.jpg" alt="Image 1"class="image">
+        </div>
+        <div class="mySlides3 fade">
+            <img src="ten2.jpg" alt="Image 2" class="image">
+        </div>
+        <div class="mySlides3 fade">
+            <img src="ten3.jpg" alt="Image 3" class="image">
+        </div>
+        <div class="mySlides3 fade">
+            <img src="ten4.jpg" alt="Image 4" class="image">
+        </div>
+        <div class="mySlides3 fade">
+            <img src="ten5.jpg" alt="Image 5" class="image">
+        </div>
+        <div class="mySlides3 fade">
+            <img src="ten6.jpg" alt="Image 6" class="image">
+        </div>
+        <div class="mySlides3 fade">
+            <img src="ten7.jpg" alt="Image 7" class="image">
+        </div>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <p  class="txt1"  style="padding-top:60px;"> <font  size="6px" >Остров вечной весны с теплым климатом круглый год.<br>
+        Восхититесь вулканами, включая Тейде, который можно поднять на фуникулере.<br>
+        Посетите искусственный пляж Лас Тереситас и Лоро-парк с попугаями и другими животными.</font></p>
+
+    
+
+    <script src="script1.js"></script>
+
+</div>
+
+    <footer>
+        <ul class="footer-tabs">
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="3.html">Список островов</a></li>
+            <li><a href="4.html">О нас</a></li>
+            <li><a href="5.html">Путеводители</a></li>
+            <li><a href="2.html">Контакты</a></li>
+        </ul>
+        
+        <ul class="footer-tabs">
+            <li> <img src="logo1.png" style="margin-left: -1000px;"></li>
+            <li>&copy; 2024 Лагуна путешествий</li>
+        </ul>
+    </footer>
+</body>
+</html>

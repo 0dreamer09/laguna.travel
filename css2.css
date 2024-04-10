@@ -1,0 +1,40 @@
+@font-face {
+    font-family: zero 5; /* Гарнитура шрифта */
+    src: url(fonts/zero5.otf); /* Путь к файлу со шрифтом */
+   }
+   body {
+    font-family: "zero 5", sans-serif;
+    color: black;
+    text-align: center;
+}
+html {
+    background-image: url(fon2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 1910px auto;
+  }
+  .text-block {
+    
+    color: white;}
+    .txt{
+        color: #00489F;
+    }
+    .txt1{
+        color: #FF9C00;
+    }
+    .footer-tabs {
+        list-style: none;
+        padding: 0;
+    }
+    .footer-tabs li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .footer-tabs a {
+        text-decoration: none;
+        color: white;
+    }

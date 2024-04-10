@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1.css">
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+    <title>Главная страница</title>
+    
+    <style>
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 10px 100px 10px 100px;
+        }
+        .container {
+            max-width: 100%;
+            margin: 750px 0 0 0;
+            padding: 2rem;
+        }
+        footer { 
+            background-color: transparent; 
+            color: #fff; 
+            text-align: center; 
+            padding: 1rem; 
+            margin: 180px 0 0 0; 
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="4.html">О нас</a>
+        <a href="3.html">Список островов</a>
+        <a href="index.html">
+            <img src="logo1.png" alt="Меню" >
+        </a>
+        <a href="5.html">Путеводители</a>
+        <a href="2.html" >Контакты</a>
+    </nav>
+    <div class="container">
+        <h1 style="color: #00489F"> <font  size="10 px">Готовы отправиться в увлекательное путешествие на <br> отдаленные острова?</font></h1>
+        <p>  <font size="5 px">Мы рады приветствовать вас на нашем сайте, где вы найдете все, что нужно для незабываемых приключений <br> среди пальм, бирюзового моря и белоснежных пляжей</font></p>
+        <p><font size="5 px">Наши эксперты тщательно подобрали лучшие маршруты и направления, <br>чтобы вы могли наслаждаться уединением, красотой природы и неповторимой атмосферой <br>отдаленных островов.</font></p>
+        <p><font color= "#FF9C00" size="6 px">Присоединяйтесь к нам в этом увлекательном путешествии, и давайте вместе <br> откроем мир островов!</font></p>
+
+    <p  class="text-block"  style="padding-top:600px;"> <font  size="11 px" >Популярные направления</font></p>
+    <p  class="text-block"  style="padding-top:300px;"> <font  size="11 px" >Остров Мадейра, Португалия</font></p>
+
+    <div class="slider-container">
+        <div class="mySlides fade">
+            <img src="123.png" alt="Image 1"class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad1.jpg" alt="Image 2" class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad2.jpg" alt="Image 3" class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad3.jpg" alt="Image 4" class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad4.jpg" alt="Image 5" class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad5.jpg" alt="Image 6" class="image">
+        </div>
+        <div class="mySlides fade">
+            <img src="mad6.jpg" alt="Image 7" class="image">
+        </div>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <p  class="text-block"  style="padding-top:40px;"> <font  size="6px" >Зеленый остров с горами, водопадами и живописными деревнями.</font></p>
+
+    <p  class="text-block"  style="padding-top:350px;"> <font  size="11 px" >Бора-Бора, Французская Полинезия</font></p>
+
+    <div class="slider-container">
+        <div class="mySlides1 fade">
+            <img src="12341.png" alt="Image 1" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora1.jpg" alt="Image 2" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora2.jpg" alt="Image 3" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora3.jpg" alt="Image 4" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora4.jpg" alt="Image 5" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora5.jpeg" alt="Image 6" class="image">
+        </div>
+        <div class="mySlides1 fade">
+            <img src="bora6.jpg" alt="Image 7" class="image">
+        </div>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <p  class="text-block"  style="padding-top:40px;"> <font  size="6px" >Острова с вулканическими холмами, лагунами и бунгало над водой.</font></p>
+       
+        <a href="3.html">
+             <img src="ic.svg" alt="Иконка" >
+          </a>
+
+    <script src="script.js"></script>
+
+    <h2 style="padding-top:2400px;" class="txt"> <font  size="14 px">Ответы на популярные вопросы</font></h2> 
+    <p style="padding-top:60px;" class="txt1"> <font  size="10 px">1. Где купить билеты на самолёт?</font></p> 
+    <p style="padding-top:40px;" class="txt"> <font  size="6 px">Лучше всего использовать сервисы для покупки<br>Такие как <a href="https://www.aviasales.ru/?params=PEE1">Aviasales</a> или обратиться к нам и мы вам поможем</font></p> 
+    <p style="padding-top:100px;" class="txt1"> <font  size="8 px">2. Я еду в одиночку, часто ли ездят одни?</font></p> 
+    <p style="padding-top:40px;" class="txt"> <font  size="6 px">Чаще чем вы думаете. Большая часть наших клиентов прилетают одни, а уезжают с десятком новых друзей.</font></p>
+    <p style="padding-top:100px;" class="txt1"> <font  size="8 px">3. Существует ли лучший день недели для бронирования билетов?</font></p> 
+    <p style="padding-top:40px;" class="txt"> <font  size="6 px">Да, есть! Лучшие дни для бронирования билетов — вторник и среда. В начале недели авиакомпании выставляют билеты на продажу, а во вторник и среду они конкурируют друг с другом, что снижает цены. К выходным цены обычно повышаются.</font></p>
+
+</div>
+
+    <footer>
+        <ul class="footer-tabs">
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="3.html">Список островов</a></li>
+            <li><a href="4.html">О нас</a></li>
+            <li><a href="5.html">Путеводители</a></li>
+            <li><a href="2.html">Контакты</a></li>
+        </ul>
+        
+        <ul class="footer-tabs">
+            <li> <img src="logo1.png" style="margin-left: -1000px;"></li>
+            <li>&copy; 2024 Лагуна путешествий</li>
+        </ul>
+    </footer>
+</body>
+</html>

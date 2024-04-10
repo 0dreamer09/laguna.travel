@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css6.css">
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+    <title>Главная страница</title>
+    
+    <style>
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 10px 100px 10px 100px;
+        }
+        .container {
+            max-width: 100%;
+            margin: 750px 0 0 0;
+            padding: 2rem;
+        }
+        footer { 
+            background-color: transparent; 
+            color: #fff; 
+            text-align: center; 
+            padding: 1rem; 
+            margin: 250px 0 0 0; 
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="4.html">О нас</a>
+        <a href="3.html">Список островов</a>
+        <a href="index.html">
+            <img src="logo1.png" alt="Меню" >
+        </a>
+        <a href="5.html">Путеводители</a>
+        <a href="2.html" >Контакты</a>
+    </nav>
+    <div class="container">
+
+    <p  class="text-block"  style="padding-top:300px;"> <font  size="11 px" >Бора-Бора, Французская Полинезия</font></p>
+<p style="padding-top: 80px ;"></p>
+    <div class="slider-container">
+            <div class="mySlides fade">
+                <img src="12341.png" alt="Image 1" class="image">
+            </div>
+            <div class="mySlides fade">
+                <img src="bora1.jpg" alt="Image 2" class="image">
+            </div>
+            <div class="mySlides fade">
+                <img src="bora2.jpg" alt="Image 3" class="image">
+            </div>
+            <div class="mySlides fade">
+                <img src="bora3.jpg" alt="Image 4" class="image">
+            </div>
+            <div class="mySlides fade">
+                <img src="bora4.jpg" alt="Image 5" class="image">
+            </div>
+            <div class="mySlides fade">
+                <img src="bora5.jpeg" alt="Image 6" class="image">
+            </div>
+            <div class="mySlides fade">
+                <img src="bora6.jpg" alt="Image 7" class="image">
+            </div>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <p  class="text-block"  style="padding-top:40px;"> <font  size="6px" >Бора-Бора — это атолл в южной части Тихого океана, расположенный во Французской Полинезии.<br>
+        Этот остров считается самым красивым среди всех островов Французской Полинезии.<br>
+        Здесь пляжи словно из сказки, а атмосфера спокойной роскоши привлекает<br> как американских звезд, так и японских бизнесменов.</font></p>
+        <p  class="text-block"  style="padding-top:40px;"> <font  size="6px" >Давайте рассмотрим некоторые интересные факты о Бора-Бора:</font></p>
+    <p  class="text-block"  style="padding-top:40px;"> <font  size="6px" >1. География и Геоморфология:<br>
+        Бора-Бора — это бывший вулканический остров, который потух и начал тонуть под поверхностью океана.<br>
+        Сегодня он состоит из двух частей:<br> центральной части с горным рельефом и моту (островков) из обломков кораллов и песка.<br>
+        Самая высокая точка острова называется Монт Отеману и возвышается на 727 метров над уровнем моря.</font></p>
+    <p  class="text-block"  style="padding-top:40px;"> <font  size="6px" >2. Туризм и Отдых:<br>
+        Бора-Бора славится своей лагуной с водными бунгало.<br> Лучшие пляжи находятся в дорогих отелях, расположенных на удаленных моту по периметру атолла.<br>
+        Здесь можно организовать свадьбу по-таитянски, наслаждаться снорклингом и отправиться<br> на мини-круизы по живописным бухтам.</font></p>
+    <p  class="text-block"  style="padding-top:40px;"> <font  size="6px" >3.Культура и Традиции:<br>
+        Бора-Бора — это не место для разгульной тусовки или экстремальных развлечений. <br>Здесь расслабляться нужно медленно, со вкусом и в идеале — в одиночку.<br>
+        Ежегодно здесь проводится впечатляющий фейерверк встречи Нового года,<br> который вошел в Книгу рекордов Гиннесса как самый большой пиротехнический праздник в мире</font></p>
+    <p  class="text-block"  style="padding-top: 130px;"> <font  size="10px" >Бора-Бора — это место, где природа и роскошь сочетаются в уникальном образе, <br>создавая незабываемую атмосферу для всех, кто попадает на этот восхитительный остров.</font></p>
+
+
+    <script src="script3.js"></script>
+</div>
+
+<footer>
+    <ul class="footer-tabs">
+        <li><a href="index.html">Главная страница</a></li>
+        <li><a href="3.html">Список островов</a></li>
+        <li><a href="4.html">О нас</a></li>
+        <li><a href="5.html">Путеводители</a></li>
+        <li><a href="2.html">Контакты</a></li>
+    </ul>
+    
+    <ul class="footer-tabs">
+        <li> <img src="logo1.png" style="margin-left: -1000px;"></li>
+        <li>&copy; 2024 Лагуна путешествий</li>
+    </ul>
+</footer>
+</body>
+</html>
